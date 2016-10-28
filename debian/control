@@ -71,9 +71,10 @@ Description: cluster engine quorum device daemon
 Package: corosync-qnetd
 Architecture: any
 Depends:
+ adduser,
+ libnss3-tools,
  ${shlibs:Depends},
  ${misc:Depends},
- libnss3-tools,
 Description: cluster engine quorum device network daemon
  ${DESCRIPTION}
  This package contains the quorum device network daemon running outside

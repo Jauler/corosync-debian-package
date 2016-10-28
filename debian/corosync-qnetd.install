@@ -1,5 +1,6 @@
 #!/usr/bin/dh-exec
 
+etc/corosync/qnetd
 lib/systemd/system/corosync-qnetd.service [linux-any]
 usr/lib/tmpfiles.d/corosync-qnetd.conf    [linux-any]
 usr/bin/corosync-qnetd
