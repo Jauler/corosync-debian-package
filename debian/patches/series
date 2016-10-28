@@ -19,3 +19,4 @@ Fix-typo-recomended-recommended.patch
 Fix-typo-occours-occurs.patch
 Fix-typo-Destorying-Destroying.patch
 Don-t-try-to-load-a-sysconfig-file.patch
+Run-corosync-qnetd-unprivileged.patch
