@@ -1,0 +1,24 @@
+From: =?utf-8?q?Ferenc_W=C3=A1gner?= <wferi@debian.org>
+Date: Fri, 28 Oct 2016 16:16:36 +0200
+Subject: Don't try to load a sysconfig file
+
+Daemon options can be added by drop-in systemd config files,
+and we don't support SysV init for now.
+---
+ init/corosync-qnetd.service.in | 3 +--
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+
+diff --git a/init/corosync-qnetd.service.in b/init/corosync-qnetd.service.in
+index c6cf8c9..01a4261 100644
+--- a/init/corosync-qnetd.service.in
++++ b/init/corosync-qnetd.service.in
+@@ -6,8 +6,7 @@ Requires=network-online.target
+ After=network-online.target
+ 
+ [Service]
+-EnvironmentFile=@SYSCONFDIR@/sysconfig/corosync-qnetd
+-ExecStart=@BINDIR@/corosync-qnetd -f $COROSYNC_QNETD_OPTIONS
++ExecStart=@BINDIR@/corosync-qnetd -f
+ Type=simple
+ Restart=on-abnormal
+ # Uncomment and set user who should be used for executing qnetd
