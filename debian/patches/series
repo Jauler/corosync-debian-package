@@ -21,3 +21,4 @@ Fix-typo-Destorying-Destroying.patch
 Don-t-try-to-load-a-sysconfig-file.patch
 Run-corosync-qnetd-unprivileged.patch
 Start-corosync-qdevice-directly.patch
+Use-the-default-files-from-the-service-files.patch
