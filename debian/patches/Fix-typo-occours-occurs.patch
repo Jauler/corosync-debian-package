@@ -8,10 +8,10 @@ Subject: Fix typo: occours -> occurs
  2 files changed, 2 insertions(+), 2 deletions(-)
 
 diff --git a/ChangeLog b/ChangeLog
-index e1ac160..50e6413 100644
+index 6040451..58877f4 100644
 --- a/ChangeLog
 +++ b/ChangeLog
-@@ -5279,7 +5279,7 @@
+@@ -5320,7 +5320,7 @@
  
  2012-02-07  Fabio M. Di Nitto  <fdinitto@redhat.com>
  
@@ -21,7 +21,7 @@ index e1ac160..50e6413 100644
  
  2012-02-07  Angus Salkeld  <asalkeld@redhat.com>
 diff --git a/man/votequorum.5 b/man/votequorum.5
-index 43d7c28..54aa188 100644
+index ee4814a..fd9590e 100644
 --- a/man/votequorum.5
 +++ b/man/votequorum.5
 @@ -223,7 +223,7 @@ Example chain of events:
@@ -31,5 +31,5 @@ index 43d7c28..54aa188 100644
 -If auto_tie_breaker is not enabled, and one more failure occours, the
 +If auto_tie_breaker is not enabled, and one more failure occurs, the
  remaining node will not be quorate. LMS does not work with asymmetric voting
- schemes, each node must vote 1.
- .PP
+ schemes, each node must vote 1. LMS is also incompatible with quorum devices,
+ if last_man_standing is specified in corosync.conf then the quorum device 

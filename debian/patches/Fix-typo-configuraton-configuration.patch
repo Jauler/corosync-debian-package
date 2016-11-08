@@ -10,10 +10,10 @@ Subject: Fix typo: configuraton -> configuration
  4 files changed, 4 insertions(+), 4 deletions(-)
 
 diff --git a/ChangeLog b/ChangeLog
-index 5e476dd..e1ac160 100644
+index fc31be2..6040451 100644
 --- a/ChangeLog
 +++ b/ChangeLog
-@@ -7219,7 +7219,7 @@
+@@ -7260,7 +7260,7 @@
  	is these last messages should be delivered after a transitional
  	configuration to maintain SAFE agreement.  We don't have support for
  	SAFE atm, so it is probably safe just to throw these messages away.  Without

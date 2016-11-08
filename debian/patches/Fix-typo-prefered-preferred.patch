@@ -8,7 +8,7 @@ Subject: Fix typo: prefered -> preferred
  2 files changed, 14 insertions(+), 14 deletions(-)
 
 diff --git a/man/corosync-qdevice.8 b/man/corosync-qdevice.8
-index d84597c..4b51957 100644
+index fbeb328..338806e 100644
 --- a/man/corosync-qdevice.8
 +++ b/man/corosync-qdevice.8
 @@ -156,7 +156,7 @@ can be one of

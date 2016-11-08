@@ -9,10 +9,10 @@ Subject: Fix typo: occured -> occurred
  3 files changed, 7 insertions(+), 7 deletions(-)
 
 diff --git a/ChangeLog b/ChangeLog
-index befc08d..5e476dd 100644
+index 8974a57..fc31be2 100644
 --- a/ChangeLog
 +++ b/ChangeLog
-@@ -5464,7 +5464,7 @@
+@@ -5505,7 +5505,7 @@
  
  	Honor exec_init_fn call
  	exec_init_fn now either returns NULL (success) or a string which indicates
@@ -21,7 +21,7 @@ index befc08d..5e476dd 100644
  	occurs, corosync will exit.  This patch adds ykd and makes other suggestions
  	from Fabio Di Nitto.
  
-@@ -6828,7 +6828,7 @@
+@@ -6869,7 +6869,7 @@
  
  	start 5 nodes randomly at about same time, start 5 nodes randomly at about
  	same time, wait 10 seconds and attempt to send a message.  If message blocks
@@ -30,7 +30,7 @@ index befc08d..5e476dd 100644
  	cyclng the nodes and see if the TRY_AGAIN state becomes unblocked.
  
  	If it doesn't the test case has failed
-@@ -15310,7 +15310,7 @@
+@@ -15351,7 +15351,7 @@
  
  2006-11-10  Steven Dake  <sdake@redhat.com>
  
@@ -39,7 +39,7 @@ index befc08d..5e476dd 100644
  	git-svn-id: http://svn.fedorahosted.org/svn/corosync/trunk@1299 fd59a12c-fef9-0310-b244-a6a79926bd2f
  
  	Recovery algorithms described in this document.
-@@ -21484,13 +21484,13 @@
+@@ -21525,13 +21525,13 @@
  
  2004-07-12  Steven Dake  <sdake@broked.org>
  
