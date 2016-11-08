@@ -15,7 +15,7 @@ fi
 
 NAME="corosync-qnetd"
 DESC="Corosync Qdevice Network daemon"
-DAEMON="/usr/sbin/$NAME"
+DAEMON="/usr/bin/$NAME"
 PIDFILE="/run/$NAME/$NAME.pid"
 USER=coroqnetd
 RUNDIR=/run/corosync-qnetd
