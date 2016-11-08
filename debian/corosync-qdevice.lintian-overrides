@@ -1,2 +1,0 @@
-# We're really experimenting with init-d-script
-unusual-interpreter etc/init.d/corosync-qdevice #!/lib/init/init-d-script
