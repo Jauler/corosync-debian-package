@@ -185,7 +185,7 @@ Description: cluster engine Totem library
  ${DESCRIPTION}
  This package contains the Totem library.
 
-Package: libvotequorum7
+Package: libvotequorum8
 Section: libs
 Architecture: any
 Multi-Arch: same
@@ -306,7 +306,7 @@ Architecture: any
 Multi-Arch: same
 Depends: ${misc:Depends},
  ${header:Depends},
- libvotequorum7 (= ${binary:Version})
+ libvotequorum8 (= ${binary:Version})
 # Moved from corosync: /usr/share/man/man8/votequorum_overview.8.gz
 #        corosync-dev: /usr/share/man/man3/votequorum_fd_get.3.gz etc.
 Replaces:
