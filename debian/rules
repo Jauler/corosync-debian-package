@@ -81,6 +81,10 @@ override_dh_install:
 override_dh_installchangelogs:
 	dh_installchangelogs ChangeLog
 
+override_dh_systemd_enable:
+	dh_systemd_enable -p corosync-qdevice --no-enable
+	dh_systemd_enable --remaining-packages
+
 override_dh_strip:
 	dh_strip --dbgsym-migration=corosync-dbg
 

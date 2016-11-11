@@ -7,7 +7,7 @@ fi
 # Provides:		corosync-qdevice
 # Required-Start:	$remote_fs $syslog corosync
 # Required-Stop:	$remote_fs $syslog corosync
-# Default-Start:	2 3 4 5
+# Default-Start:	
 # Default-Stop:		0 1 6
 # Short-Description:	Corosync Qdevice daemon
 # Description:		Starts and stops Corosync Qdevice daemon.
