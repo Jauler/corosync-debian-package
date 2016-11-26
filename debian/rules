@@ -39,6 +39,7 @@ override_dh_autoreconf:
 
 override_dh_auto_configure:
 	dh_auto_configure -- \
+	    --with-configdir=/etc/default \
 	    --with-logdir=/var/log/corosync \
 	    --with-tmpfilesdir=/usr/lib/tmpfiles.d \
 	    --enable-dbus \

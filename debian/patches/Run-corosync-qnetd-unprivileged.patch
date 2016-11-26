@@ -15,11 +15,11 @@ index f4cbd03..f169d36 100644
 -d /var/run/corosync-qnetd 0770 root root -
 +d /run/corosync-qnetd 0755 coroqnetd coroqnetd
 diff --git a/init/corosync-qnetd.service.in b/init/corosync-qnetd.service.in
-index 01a4261..99c626b 100644
+index 9b93e5a..1a04960 100644
 --- a/init/corosync-qnetd.service.in
 +++ b/init/corosync-qnetd.service.in
-@@ -9,8 +9,7 @@ After=network-online.target
- ExecStart=@BINDIR@/corosync-qnetd -f
+@@ -10,8 +10,7 @@ EnvironmentFile=-@CONFIGDIR@/corosync-qnetd
+ ExecStart=@bindir_expanded@/corosync-qnetd -f $COROSYNC_QNETD_OPTIONS
  Type=simple
  Restart=on-abnormal
 -# Uncomment and set user who should be used for executing qnetd
