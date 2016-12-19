@@ -1,3 +1,10 @@
+corosync (2.4.2-3) unstable; urgency=medium
+
+  [ Ferenc Wágner ]
+  * [c1663f3] Extend systemd notification to corosync-qdevice and corosync-qnetd
+
+ -- Ferenc Wágner <wferi@debian.org>  Mon, 19 Dec 2016 14:35:43 +0100
+
 corosync (2.4.2-2) unstable; urgency=medium
 
   * [5996a94] Don't enable the qdevice daemon on installation, it needs
