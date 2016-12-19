@@ -4,5 +4,6 @@ set -ex
 
 corosync-cfgtool -s | grep -20 'ring 0 active with no faults'
 
-# Even *trying* to start corosync-qdevice breaks this test!
+# Even *trying* to start corosync-qdevice breaks this test.
+# Let's consider this a feature, because we don't intend to start it.
 corosync-quorumtool | grep -20 ' 1 localhost (local)'
