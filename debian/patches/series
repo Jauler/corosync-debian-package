@@ -25,3 +25,5 @@ Run-corosync-qnetd-unprivileged.patch
 Start-corosync-qdevice-directly.patch
 Fully-expand-substituted-variables.patch
 Use-RuntimeDirectory-instead-of-tmpfiles.d.patch
+corosync-qnetd-send-startup-notification-to-systemd.patch
+corosync-qdevice-send-startup-notification-to-system.patch
