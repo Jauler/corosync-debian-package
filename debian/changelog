@@ -1,3 +1,13 @@
+corosync (2.4.2-2) unstable; urgency=medium
+
+  * [5996a94] Don't enable the qdevice daemon on installation, it needs
+    configuration
+  * [058daab] autopkgtest: corosync is started automatically
+  * [c4bd5cf] Reorder and rework patch queue for easier upstreaming
+  * [ec61daa] Use RuntimeDirectory instead of tmpfiles.d
+
+ -- Ferenc Wágner <wferi@debian.org>  Mon, 19 Dec 2016 09:48:37 +0100
+
 corosync (2.4.2-1) unstable; urgency=medium
 
   * [ed34965] Use official distribution site in the watch file
