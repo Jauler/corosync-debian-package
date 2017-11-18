@@ -2,8 +2,7 @@ Source: corosync
 Section: admin
 Priority: optional
 Maintainer: Debian HA Maintainers <debian-ha-maintainers@lists.alioth.debian.org>
-Uploaders: Christoph Berg <myon@debian.org>,
- Richard B Winters <rik@mmogp.com>,
+Uploaders:
  Adrian Vondendriesch <adrian.vondendriesch@credativ.de>,
  Ferenc Wágner <wferi@debian.org>,
 Standards-Version: 3.9.8
