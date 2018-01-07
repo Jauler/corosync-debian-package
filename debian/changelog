@@ -1,3 +1,10 @@
+corosync (2.4.2-3.1) UNRELEASED; urgency=medium
+
+  * Non-maintainer upload.
+  * libcpg: Fix issue with partial big packet assembly
+
+ -- --- <rytis.karpuska@gmail.com>  Sun, 07 Jan 2018 17:31:46 +0200
+
 corosync (2.4.2-3) unstable; urgency=medium
 
   [ Ferenc Wágner ]
